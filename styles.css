@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size:40px;
+  font-weight: bold;
+}
+h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: black;
+  padding-top: 10px;
+  height: 50px;
+}
+
+header a {
+  text-decoration: none;
+  color: white
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 10px;
+  height: 20px;
+}
+header input[type=text] {
+  -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid grey;
+    color: grey;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 30px;
+    max-width: 70%;
+    text-align: left;
+    width: 70%;
+    -ms-flex: 1 1 .000000001px;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-flex-basis: .000000001px;
+    flex-basis: .000000001px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.button1{
+  background-color: rgb(240, 146, 51);
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.button2{
+  background-color: red;
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;}
+  
+  .button3{
+  background-color: #34495e;
+  color: white;
+  padding: 10px; 
+  width: 400px;
+  height: 10px; 
+  text-align: center; 
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-decoration: none;}
+
+.top-left {
+  float: left;
+}
+
+.Navlinks {
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.Navlinks li {
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: -15px;
+}
+
+.topmainsec {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.topli li {
+  float: right;
+ color: white;
+  display: block;
+  margin-block-start: -2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 5px;
+  padding-inline-start: 0px;
+}
+
+#bearlogo {
+  width: 30px;
+  margin-block-start: -1em;
+}
+#npmlogo {
+  width: 100px;
+}
+.start {
+  display: block;
+  color: white;
+  background-image: url("images/city-scape.svg");
+  padding: 5% 10%;
+}
+
+#firstsec {
+  display: block;
+  background-color: rgb(32, 101, 136);
+  color: white;
+  padding: 5% 10%;
+  height: 350px;
+}
+.orgtitle {
+  margin-left: 42%;
+}
+.Orgli {
+  display: inline-block;
+  margin-left: 10%;
+}
+.collb {
+  width: 500px;
+  float: left;
+}
+
+#secondsec {
+ display: block;
+  color: white;
+  padding: 5% 10%;
+  height: 350px; 
+  background-image: url("images/forklift.svg");
+}
+
+.thirdsec{
+display: block;
+  color: white;
+  padding: 5% 10%;
+  height: 350px; 
+}
+.one-third-section {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+}
+
+.one-third-section p {
+  text-align: center;
+  color: grey;
+}
+
+.thirdhead {
+text-align: center;
+color: grey;
+}
+
+.textred {
+  color: red;
+}
